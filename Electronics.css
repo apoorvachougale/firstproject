@@ -1,0 +1,33 @@
+img
+{	
+	
+	width: 400px;
+	height: 380px;
+}
+.electro
+{
+
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	color: #fff;
+
+}
+html,body
+{
+	background-color:  #474747;
+}
+/*#div1
+{
+	float: left;
+}
+#div2
+{
+	float: left;
+}
+#div3
+{
+	float: left;
+}*/

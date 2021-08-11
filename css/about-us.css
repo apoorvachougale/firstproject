@@ -1,0 +1,52 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+     
+}
+
+
+.about{
+	height:100%;
+	width:100%;
+	
+	}
+
+.main {
+	  width:40%;
+	 /* background:rgba(0,0,0,.7); */
+	  color:black;
+	  text-align:center;
+	  padding: 50px;
+	  position: absolute;
+	  top:20%;
+	  left:32%;
+	  border:2px solid black;
+	 
+
+	  
+}
+.main p{
+	
+	  font-size:20px;
+	  
+
+}
+.main .icon{
+
+	min-width:60px;
+	height:60px;
+	justify-content:center;
+	align-items:center;
+	font-size:25px;
+	color:black;
+}
+ h1{
+	   color:solid black;
+}
+
+.girl{
+	  width:42%;
+	  
+	     
+	  }

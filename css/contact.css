@@ -1,0 +1,46 @@
+.nav{
+          height:60px;
+		  background:blue;
+		  }
+.nav div{
+	        left:1px;
+			font-size:20px;
+			display:inline-block;
+			position:absolute;
+			padding:5px;
+			color:white;
+}
+.contact{
+	    background:url("../images/light.jpeg");
+		background-size:cover;
+height:100vh;}
+		
+		
+.nav ul{
+	      right:0;
+		  position:absolute;
+		  
+}
+.nav ul li{
+	         display:inline-block;
+}
+.nav ul li a{
+	          color:white;
+			  padding:10px;
+			 /* text-decoration:none;*/
+			  
+}
+.contact-container h1{
+	                   margin:80px auto 0 auto;
+	                  text-align:center;
+					  color:white;
+}
+.contact-container .address-holder{
+	      font-family:'Lato',sana-serif;
+		  text-align:justify;
+		  text-align:center;
+		  color:white;
+}
+ 
+	
+					 

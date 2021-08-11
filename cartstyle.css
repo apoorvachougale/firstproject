@@ -1,0 +1,113 @@
+*{
+    margin:20;
+    padding: 20;
+} 
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight:solid black;
+    font-size:20px;
+    text-align:center;
+}
+.cart-page{
+    margin: 20px auto;
+    padding: 20px;
+    width:90%;
+    border-collapse: collapse;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+p {
+    margin: 0 0 1px;
+    margin-left: 0px;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background:#5D9CEC;
+    font-weight: 10px;
+
+}
+td{
+    padding: 12px 15px 10px 5px;
+    font-size:20px;
+
+}
+td input{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+td a{
+    color:#5D9CEC;
+    font-size:15px;
+}
+
+td .qty{
+       margin:5%;
+       font-size: 15px;
+       text-align:center;
+}
+
+/*img{
+    width: 40%;
+    height: 50%;
+    margin: 20px;
+    background: lightblue;
+    background: radial-gradient(white 30%, lightblue 70%);
+    max-width:100%;
+} */
+
+
+td button{
+
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    padding: 7px 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 5px;
+    color: #5D9CEC;
+    background-color: white;
+    border:1px solid black;
+}
+
+.cart-total {
+    margin: 60px;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+td .btn{
+    font-size:20px;
+}
+
+.cart-total table {
+
+    margin-right: 70px;
+    border-top: 3px solid #5D9CEC;
+    width: 50%;
+    max-width: 450px;
+
+}
+
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+
+

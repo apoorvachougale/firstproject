@@ -1,0 +1,116 @@
+ *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+  
+  }
+body{
+	background-color:#9FC1D3;
+        text-align:center;
+	
+}
+  
+ .contact{
+     position:absolute;
+     min-height:100%;
+     padding:50px 100px;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     flex-direction:column;	 
+     
+    }
+
+.contact .content
+{       position:relative;
+	    max-width:800px;
+		text-align:center;
+}
+.contact .content h1          /*Contact us block */
+{   
+	font-size:36px;
+	font-weight:500;
+	color:Darkblue;
+	
+}
+
+.contact .content p{
+	font-weight:300;
+	
+}
+
+
+.container {
+	  width:100%;
+	  display:flex;
+	  justify-content:center;
+	 
+	  margin-top:30px;
+}
+	  
+.container .contactinfo{
+	width:50%;
+	display:flex;
+	justify-content:center;
+
+	
+}
+.container .contactinfo .box{
+	   position:relative;
+	   padding:30px 50px;
+	   display:flex;
+	   justify-content:center;
+	   width:50%;
+	   height:30%;
+}
+.container .contactinfo .box .icon {
+	min-width:60px;
+	height:60px;
+	background:#fff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:50%;
+	font-size:22px;
+	border:2px solid black;
+}
+.container .contactinfo .box .icon:hover {
+  color: #4481eb;
+  border-color: #4481eb;
+}
+
+.container .contactinfo .box .text {
+	display:flex;
+	margin-left:20px;
+	font-size:16px;
+	color:black;
+	flex-direction:column;
+	font-weight:300;
+}
+
+.container .contactinfo .box .text h3 {
+	font-weight:300;
+	color:Darkblue;
+	
+	
+ }
+.bg-image{
+	 width:90%;
+	 height:40vh;
+	 margin-top:1%;
+	 border:none;
+	 
+	 
+ }
+	  
+
+    
+
+	   
+	   
+
+	
+
+	
+	   
